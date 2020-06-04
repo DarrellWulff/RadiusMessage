@@ -21,9 +21,15 @@ Maddy Henderson
 
 ### Using the big plus button we can enter into the post creation menu.
 
+<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105055.png" alt="drawing" width="500"/>
+
 ### After pressing "ok" we can plot down our new post exactly where we are standing!
 
+<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105128.png" alt="drawing" width="500"/>
+
 ### You can only tap and view the message when you physically in the message circle, so we tap to see what is inside of our new post.
+
+<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105150.png" width="500"/>
 
 
 ## Technologies Used
