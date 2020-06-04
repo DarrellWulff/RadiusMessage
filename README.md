@@ -1,4 +1,4 @@
-<img src="https://imgur.com/I1fXu4n" alt="RM Logo" width="400"/>
+<img src="https://imgur.com/I1fXu4n" alt="RM Logo"/>
 # Radius Message
 
 ## App Created By:
@@ -18,19 +18,19 @@ Maddy Henderson
 
 ### First we might be walking around a trail.
 
-<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105024.png" alt="drawing" width="400"/>
+<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105024.png" alt="on a trail" width="400"/>
 
 ### Using the big plus button we can enter into the post creation menu.
 
-<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105055.png" alt="drawing" width="400"/>
+<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105055.png" alt="post creation menu" width="400"/>
 
 ### After pressing "ok" we can plot down our new post exactly where we are standing!
 
-<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105128.png" alt="drawing" width="400"/>
+<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105128.png" alt="new post" width="400"/>
 
 ### You can only tap and view the message when you're physically in the message circle, so we tap to see what is inside of our new post.
 
-<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105150.png" width="400"/>
+<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105150.png"  alt="post story" width="400"/>
 
 
 ## Technologies Used
