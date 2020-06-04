@@ -4,10 +4,10 @@
 
 ## App Created By:
 
-Matt Sullivan  
+*Matt Sullivan  
 Taseen Hafiz  
 Darrell Wulff  
-Maddy Henderson
+Maddy Henderson*
 
 ## What is Radius Message?
 
