@@ -10,6 +10,7 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
 
@@ -41,6 +42,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements PostDialog.TextPostDialogListener {
 
+
     private final int REQUEST_PERMISSIONS_REQUEST_CODE = 1;
 
     public ConstraintLayout parentLayout;
@@ -65,6 +67,13 @@ public class MainActivity extends AppCompatActivity implements PostDialog.TextPo
         Context appContext = getApplicationContext();
         org.osmdroid.config.Configuration.getInstance().load(appContext, PreferenceManager.getDefaultSharedPreferences(appContext));
         setContentView(R.layout.activity_main);
+
+        requestPermissionsIfNecessary(new String[]{
+                // if you need to show the current location, uncomment the line below
+                Manifest.permission.ACCESS_FINE_LOCATION,
+                // WRITE_EXTERNAL_STORAGE is required in order to show the map
+                Manifest.permission.WRITE_EXTERNAL_STORAGE
+        });
 
         //Need this in main activity for postRenderer to work.
         postImage = new PostImage();
@@ -104,7 +113,7 @@ public class MainActivity extends AppCompatActivity implements PostDialog.TextPo
     }
 
     @Override
-    public void applyTexts(String postText, int postRadius, int postDuration, int postDelay, Bitmap bitmap) throws IOException {
+    public void applyTexts(String postText, int postRadius, int postDuration, int postDelay, Bitmap bitmap, boolean imageCheck) throws IOException {
 
         JSONObject post = new JSONObject();
         GeoPoint messageLocation = UserLocationManager.getInstance().getCurrentLocationAsGeoPoint();
@@ -120,6 +129,7 @@ public class MainActivity extends AppCompatActivity implements PostDialog.TextPo
             post.put("message_duration", postDuration);
             post.put("message_delay", postDelay);
             post.put("user_message_image", decodedImage);
+            post.put("imageCheck", imageCheck);
         }catch (JSONException e){
             e.printStackTrace();
         }
@@ -129,14 +139,6 @@ public class MainActivity extends AppCompatActivity implements PostDialog.TextPo
 
     public void updatePostMap(List<drawData> currentDrawData) {
         mapActivity.updatePostMapOverlays(currentDrawData);
-    }
-
-    public String BitmapToString(Bitmap bitmap){
-        ByteArrayOutputStream bitStreamOut = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 24, bitStreamOut);
-        byte[] byteImageArray = bitStreamOut.toByteArray();
-        String convertedImage = Base64.encodeToString(byteImageArray, Base64.URL_SAFE);
-        return convertedImage;
     }
 
 
