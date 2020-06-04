@@ -1,4 +1,4 @@
-<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="RM Logo" width="100">
+<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/RMLOGO1.png" alt="RM Logo" width="15">
 
 # Radius Message
 
