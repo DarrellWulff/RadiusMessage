@@ -42,7 +42,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements PostDialog.TextPostDialogListener {
 
-    private static final int REQUEST_PERMISSIONS_REQUEST_CODE = 1;
+
+    private final int REQUEST_PERMISSIONS_REQUEST_CODE = 1;
+
     public ConstraintLayout parentLayout;
     PostImage postImage;
 
