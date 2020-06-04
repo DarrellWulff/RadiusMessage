@@ -1,5 +1,4 @@
-<blockquote class="imgur-embed-pub" lang="en" data-id="I1fXu4n"><a href="//imgur.com/I1fXu4n"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+<img src="https://github.com/DarrellWulff/RadiusMessage/blob/develop/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="RM Logo" width="50">
 # Radius Message
 
 ## App Created By:
