@@ -17,7 +17,7 @@ Maddy Henderson
 
 ### First we might be walking around a trail.
 
-![RM Field](Photos (1)/Screenshot_20200604-105024.png)
+![RM Field](/Photos (1)/Screenshot_20200604-105024.png)
 
 ### Using the big plus button we can enter into the post creation menu.
 
