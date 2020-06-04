@@ -17,7 +17,8 @@ Maddy Henderson
 
 ### First we might be walking around a trail.
 
-![Image](https://imgur.com/ofT1vj6)
+![RM Field](https://github.com/DarrellWulff/RadiusMessage/blob/develop/Photos%20(1)/Screenshot_20200604-105024.png)
+Format: ![Alt Text](url)
 
 ### Using the big plus button we can enter into the post creation menu.
 
